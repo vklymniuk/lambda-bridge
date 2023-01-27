@@ -1,0 +1,44 @@
+{
+  "env": {
+    "node": true,
+    "mocha": true,
+    "es6": true
+  },
+  "plugins": [
+    "chai-expect",
+    "promise"
+  ],
+  "extends": [
+    "eslint:recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "sourceType": "module"
+  },
+  "globals": {
+    "expect":true
+  },
+
+  "rules": {
+    "indent": [
+      "error",
+      4
+    ],
+    "linebreak-style": [
+      "error",
+      "unix"
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ],
+    "no-multiple-empty-lines": [2, {"max": 2}],
+    "no-unused-vars": [1, { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }],
+    "chai-expect/missing-assertion": 2,
+    "chai-expect/terminating-properties": 1
+  }
+}
