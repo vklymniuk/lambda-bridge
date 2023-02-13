@@ -1,0 +1,40 @@
+{
+  "name": "lambda-bridge",
+  "version": "0.0.1",
+  "description": "A bridge between Lambda functions and Event Handlers",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vklymniuk/lambda-bridge.git"
+  },
+  "author": "Vladimir Klymniuk",
+  "license": "MIT-advertising",
+  "bugs": {
+    "url": "https://github.com/vklymniuk/lambda-bridge/issues"
+  },
+  "homepage": "https://github.com/vklymniuk/lambda-bridge#readme",
+  "dependencies": {
+    "nconf": "^0.12.0",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-flow": "^6.23.0",
+    "chai": "^4.3.7",
+    "chai-as-promised": "^7.1.1",
+    "eslint-plugin-chai-expect": "^3.0.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "faker": "^6.6.6",
+    "mocha": "^10.2.0",
+    "nyc": "^15.1.0",
+    "sinon": "^15.0.1",
+    "sinon-chai": "^3.7.0"
+  }
+}
